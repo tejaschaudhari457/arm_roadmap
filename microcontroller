@@ -1,0 +1,439 @@
+Level 1: Basics (1–10)
+
+What is a microcontroller, and how is it different from a microprocessor?
+
+Name some popular microcontroller families (8-bit, 16-bit, 32-bit).
+
+What are the main components of a microcontroller?
+
+Explain the difference between volatile and non-volatile memory.
+
+What is the function of GPIO pins?
+
+Explain the difference between SRAM, Flash, and EEPROM.
+
+What is an ADC and DAC, and why are they used?
+
+What are timers/counters in a microcontroller?
+
+Explain the difference between polling and interrupt.
+
+What is the purpose of a watchdog timer?
+
+Level 2: Architecture & Peripherals (11–20)
+
+Explain Harvard vs Von Neumann architecture in microcontrollers.
+
+What is the difference between RISC and CISC microcontrollers?
+
+What are UART, SPI, and I2C interfaces?
+
+How does PWM (Pulse Width Modulation) work?
+
+What is an external interrupt, and how is it configured?
+
+Explain the concept of memory-mapped I/O.
+
+What is the difference between synchronous and asynchronous communication?
+
+How do microcontrollers handle low-power modes?
+
+What is DMA, and why is it useful in microcontrollers?
+
+What is the function of an oscillator in a microcontroller?
+
+Level 3: Programming & Embedded Systems (21–30)
+
+Explain the difference between bare-metal programming and using an RTOS.
+
+What are the steps to write a GPIO toggle program?
+
+How do you configure a timer for generating periodic interrupts?
+
+Explain the concept of bit-banging in microcontrollers.
+
+How do you debounce a push button using software?
+
+What is the difference between blocking and non-blocking code?
+
+Explain memory allocation in embedded C (stack vs heap).
+
+What is the role of startup code and vector table in microcontroller programs?
+
+How do you handle multiple interrupts with different priorities?
+
+Explain circular buffers and their use in UART communication.
+
+Level 4: Advanced Topics (31–40)
+
+What is an RTOS, and how does it differ from a superloop system?
+
+Explain task scheduling and context switching in an RTOS.
+
+How do you interface an external sensor using I2C or SPI?
+
+How does a microcontroller handle ADC conversion?
+
+Explain the difference between polling and interrupt-driven ADC.
+
+How do watchdog timers prevent system crashes?
+
+What are watchdog refresh mechanisms?
+
+How do you implement low-power sleep and wakeup on a microcontroller?
+
+Explain the concept of bootloader in microcontroller systems.
+
+What is the difference between internal and external memory in microcontrollers?
+
+Level 5: Expert / System Design (41–50)
+
+How do you design an embedded system with multiple sensors and actuators?
+
+Explain how to handle real-time constraints in microcontroller applications.
+
+How do you prevent race conditions in embedded software?
+
+What is the role of semaphores and mutexes in microcontroller RTOS?
+
+How do you optimize microcontroller code for speed and memory usage?
+
+Explain how to interface a microcontroller with an LCD or OLED display.
+
+How do you debug a microcontroller system with hardware and software faults?
+
+What is the difference between soft and hard real-time systems?
+
+How do you handle communication between two microcontrollers?
+
+Describe a project where you successfully used multiple peripherals, timers, and interrupts efficiently.
+
+Level 1: Advanced Architecture & Peripherals (51–60)
+
+Explain the difference between Harvard and Von Neumann architecture in detail.
+
+How does pipelining work in a microcontroller?
+
+What is the function of the system clock and PLL in microcontrollers?
+
+Explain the difference between GPIO input, output, and alternate functions.
+
+How does a timer interrupt differ from an external interrupt?
+
+What are the advantages of DMA over CPU-driven data transfer?
+
+How do microcontrollers handle analog input and output?
+
+What are pull-up and pull-down resistors, and why are they needed?
+
+Explain edge-triggered vs level-triggered interrupts.
+
+How do microcontrollers implement UART communication with baud rate settings?
+
+Level 2: Programming & Embedded C (61–70)
+
+Explain volatile keyword and its importance in embedded programming.
+
+What is the difference between #define and const in microcontroller code?
+
+How do you implement a software timer using a hardware timer?
+
+Explain the difference between static and dynamic memory allocation.
+
+How do you write an interrupt service routine (ISR) safely?
+
+How do you share data between an ISR and the main program?
+
+What is the difference between blocking and non-blocking I/O?
+
+How do you implement a circular buffer in C for UART data?
+
+Explain the use of bit-fields and unions in embedded C.
+
+How do you handle stack overflow and memory corruption issues?
+
+Level 3: Real-Time Systems & RTOS (71–80)
+
+What is the difference between hard and soft real-time systems?
+
+Explain the difference between preemptive and cooperative scheduling.
+
+How do you calculate interrupt latency in a microcontroller?
+
+Explain priority inversion and how to handle it in RTOS.
+
+What is a mutex, semaphore, and event flag, and when would you use them?
+
+How does context switching work in an RTOS?
+
+How do you implement task communication in RTOS?
+
+Explain tickless idle mode in RTOS and its benefits.
+
+How do you schedule periodic tasks in an RTOS?
+
+Explain the difference between foreground-background loop and RTOS task design.
+
+Level 4: Advanced Peripheral & Communication (81–90)
+
+How do you interface multiple I2C devices with the same bus?
+
+Explain SPI master vs slave communication with examples.
+
+How do you implement UART with DMA for high-speed data transfer?
+
+How does CAN bus communication work in microcontrollers?
+
+How do you interface an external EEPROM using SPI/I2C?
+
+Explain the difference between synchronous and asynchronous serial communication.
+
+How do you implement PWM for motor control in microcontrollers?
+
+How do you measure frequency or pulse width using timers?
+
+Explain how ADC oversampling improves resolution.
+
+How do you interface a microcontroller with an LCD or OLED display?
+
+Level 5: System Design, Debugging & Low-Power (91–100)
+
+How do you design a low-power microcontroller system for battery operation?
+
+Explain sleep, stop, and standby modes in microcontrollers.
+
+How do you implement wake-up from external interrupt during sleep?
+
+How do you optimize code for speed, memory, and power efficiency?
+
+How do you debug a microcontroller when it stops responding?
+
+What is JTAG/SWD, and how do you use it for debugging?
+
+How do you analyze and fix memory leaks in embedded C programs?
+
+Explain a method to synchronize multiple microcontrollers in a system.
+
+How do you implement a bootloader and firmware update mechanism?
+
+Describe a project where you handled multiple peripherals, interrupts, and real-time constraints efficiently.
+
+Level 1: Advanced MCU Architecture & Multicore (101–110)
+
+Explain the difference between single-core and multicore microcontrollers.
+
+How do multicore microcontrollers share memory and peripherals?
+
+What is cache coherence, and how is it managed in multicore MCUs?
+
+How does pipelining affect performance in high-speed microcontrollers?
+
+Explain the role of PLL and system clock distribution in multicore MCUs.
+
+What is the difference between Cortex-M and Cortex-A cores?
+
+How does an MPU (Memory Protection Unit) differ from an MMU?
+
+Explain the difference between Harvard and Von Neumann architectures.
+
+How does a microcontroller handle instruction and data prefetching?
+
+What are the advantages of RISC architecture in microcontrollers?
+
+Level 2: Real-Time Systems & RTOS (111–120)
+
+How do you implement real-time scheduling in multicore microcontrollers?
+
+What is task prioritization, and how do you avoid priority inversion?
+
+How do you measure and optimize interrupt latency in an RTOS?
+
+Explain the difference between tick-based and tickless RTOS scheduling.
+
+How do you synchronize tasks across multiple cores?
+
+Explain the role of message queues in RTOS.
+
+How do you implement inter-task communication safely?
+
+Explain mutex deadlock and how to prevent it.
+
+How do you handle nested interrupts in an RTOS system?
+
+How do you profile an RTOS for CPU load and task execution time?
+
+Level 3: Peripherals & Communication Protocols (121–130)
+
+How do you interface multiple I2C devices with the same address?
+
+Explain the difference between SPI modes (0,1,2,3).
+
+How do you implement UART with DMA for continuous data transfer?
+
+Explain CAN bus arbitration and message priority.
+
+How do you implement fault-tolerant SPI communication?
+
+How do you interface an external ADC or DAC?
+
+Explain debounce methods for mechanical switches.
+
+How do you measure analog signals with high accuracy?
+
+How do you implement quadrature encoder interface for motor control?
+
+Explain synchronization between multiple communication interfaces.
+
+Level 4: Low-Power & Optimization (131–140)
+
+How do you reduce power consumption in microcontroller applications?
+
+Explain sleep, deep sleep, and standby modes.
+
+How do you wake a microcontroller from low-power mode using a timer?
+
+How do you implement power gating for peripherals?
+
+How do you optimize ADC conversions for speed and power?
+
+Explain clock gating and its role in low-power design.
+
+How do you profile power consumption in a microcontroller system?
+
+What are the trade-offs between low-power and high-performance modes?
+
+How do you implement event-driven vs polling-driven systems for efficiency?
+
+Explain techniques for reducing code size and memory footprint.
+
+Level 5: Debugging, Fault Handling & Real-World Design (141–150)
+
+How do you debug a microcontroller that does not boot?
+
+How do you handle hard faults or memory access violations?
+
+What is a watchdog timer, and how do you implement it safely?
+
+How do you detect and recover from stack overflow?
+
+How do you trace execution in a running microcontroller system?
+
+How do you implement firmware updates safely in the field?
+
+How do you handle multiple simultaneous faults in a system?
+
+How do you synchronize data between multiple MCUs in a distributed system?
+
+Explain a method to implement fault-tolerant communication between MCUs.
+
+Describe a real-world project where you optimized multitasking, power, and fault tolerance effectively.
+
+Level 1: System Design & Scenario-Based (151–160)
+
+How do you design a microcontroller-based sensor monitoring system?
+
+How do you choose between 8-bit, 16-bit, and 32-bit MCUs for a project?
+
+How do you select appropriate timers and interrupts for a real-time application?
+
+How do you design an MCU system with multiple PWM-controlled motors?
+
+How do you implement fail-safe mechanisms in embedded systems?
+
+How do you handle high-speed data acquisition from multiple sensors?
+
+How do you implement priority-based interrupt handling in a critical system?
+
+How do you design MCU firmware to survive unexpected power loss?
+
+How do you implement precise delays without wasting CPU cycles?
+
+How do you select appropriate communication protocols for multiple devices?
+
+Level 2: Multicore & Communication (161–170)
+
+How do you synchronize tasks across multiple cores in a microcontroller?
+
+Explain shared memory vs message-passing in multicore MCU communication.
+
+How do you prevent race conditions in multicore MCU systems?
+
+How do you implement multicore load balancing?
+
+How do you interface multiple MCUs in a distributed system?
+
+How do you ensure deterministic communication in multicore systems?
+
+Explain fault-tolerant communication between MCUs.
+
+How do you implement synchronization using semaphores in multicore MCUs?
+
+How do you implement multicore timers and scheduler coordination?
+
+How do you debug multicore MCU issues effectively?
+
+Level 3: RTOS & Task Management (171–180)
+
+How do you implement a periodic task with precise timing in RTOS?
+
+How do you implement inter-task communication using queues?
+
+How do you design a system to handle both high-priority and low-priority tasks?
+
+How do you detect and resolve task starvation in RTOS?
+
+How do you implement a real-time scheduler in bare-metal systems?
+
+How do you profile CPU usage per task in an RTOS?
+
+How do you implement preemption in a cooperative RTOS system?
+
+How do you handle multiple interrupts affecting the same task?
+
+How do you implement a soft real-time system using timers and interrupts?
+
+How do you design RTOS tasks to minimize latency and maximize throughput?
+
+Level 4: Low-Power Design & Optimization (181–190)
+
+How do you reduce power consumption in IoT devices using MCUs?
+
+How do you implement deep sleep modes while maintaining essential functionality?
+
+How do you wake an MCU from low-power mode using peripheral events?
+
+How do you optimize ADC sampling for power efficiency?
+
+How do you implement event-driven design to minimize CPU usage?
+
+How do you optimize DMA usage to save power and CPU cycles?
+
+How do you measure and profile power consumption in embedded systems?
+
+How do you implement clock gating to reduce MCU power usage?
+
+How do you design low-power communication protocols for MCUs?
+
+How do you optimize firmware for both speed and memory footprint?
+
+Level 5: Fault Handling, Security & Advanced Scenarios (191–200)
+
+How do you implement watchdog timers in complex systems?
+
+How do you handle stack overflow or heap corruption?
+
+How do you implement secure firmware updates in MCUs?
+
+How do you implement authentication and encryption in MCU communication?
+
+How do you design embedded systems to tolerate sensor or peripheral failures?
+
+How do you implement logging and diagnostics in constrained MCUs?
+
+How do you handle unexpected reset or brownout conditions?
+
+How do you perform real-time debugging in a deployed system?
+
+How do you implement a multicore MCU system with secure task isolation?
+
+Describe a complete embedded system project where you handled multitasking, low-power operation, and fault tolerance successfully.
