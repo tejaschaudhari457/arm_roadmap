@@ -1,0 +1,407 @@
+Level 1: ARM Basics & CPU Fundamentals (1–50)
+
+What does ARM stand for and who designs ARM processors?
+
+Explain the difference between RISC and CISC architectures.
+
+What are the main features of ARM architecture?
+
+What are the different ARM core families (Cortex-M, Cortex-R, Cortex-A) used for?
+
+Explain Von Neumann vs Harvard architecture. Which one does ARM use?
+
+What are the advantages of RISC architecture?
+
+What is the difference between ARM7, ARM9, and ARM Cortex series?
+
+What are registers in ARM CPU? Name a few important ones.
+
+What is the difference between user mode and supervisor mode?
+
+What is the ARM instruction pipeline?
+
+What is the difference between ARM and Thumb instruction sets?
+
+Explain the purpose of the Link Register (LR) and Program Counter (PC).
+
+What is the function of the CPSR (Current Program Status Register)?
+
+What are conditional execution flags in ARM?
+
+How is branching handled in ARM (B, BL, BX instructions)?
+
+Explain how stack operations (PUSH/POP) work in ARM.
+
+What is the difference between LDR/STR and MOV instructions?
+
+What are addressing modes in ARM?
+
+What is the purpose of the S suffix in ARM instructions (e.g., ADDS, SUBS)?
+
+How does interrupt and exception handling work in ARM?
+
+Explain the main features of the Cortex-M core.
+
+What is NVIC and what is its role?
+
+What are the privilege levels and modes in Cortex-M?
+
+What is the role of the System Control Block (SCB)?
+
+What is SysTick, and how is it typically used?
+
+What is the function of the vector table in ARM Cortex-M?
+
+Explain the startup sequence from reset to main() in a Cortex-M system.
+
+What are CMSIS and HAL, and how do they differ?
+
+How is interrupt priority handled in Cortex-M cores?
+
+What is the difference between Sleep, Stop, and Standby modes in ARM MCUs?
+
+What are the key differences between Cortex-M and Cortex-A cores?
+
+What is the role of the MMU (Memory Management Unit) in Cortex-A?
+
+Explain privilege levels (EL0–EL3) in ARMv8-A.
+
+What is TrustZone technology?
+
+What is the difference between a secure and non-secure world in ARM architecture?
+
+Explain the boot flow in an ARM-based Linux system.
+
+What is a Device Tree in Linux, and why is it needed?
+
+How is virtual memory handled in ARM Cortex-A?
+
+What is cache coherency, and how does ARM handle it?
+
+What are the common exceptions or traps in ARMv8-A?
+
+How does context switching occur in ARM-based RTOS systems?
+
+What is the purpose of the MPU (Memory Protection Unit)?
+
+How is interrupt latency minimized in Cortex-M systems?
+
+Explain the difference between IRQ and FIQ.
+
+What are barriers (DMB, DSB, ISB) used for in ARM architecture?
+
+What is NEON, and what is its purpose?
+
+How would you debug a hard fault in a Cortex-M MCU?
+
+How can you profile performance on ARM processors?
+
+What is the purpose of the vector table offset register (VTOR)?
+
+Explain the steps involved in porting FreeRTOS to a new ARM Cortex-M MCU.
+
+Level 2: Advanced CPU, Pipeline & Memory (51–100)
+
+What is instruction pipelining, and how does it improve performance in ARM?
+
+Explain the concept of pipeline hazards (data, control, structural) in ARM.
+
+What is branch prediction, and how is it implemented in ARM CPUs?
+
+What is speculative execution? Why is it used in ARM Cortex-A?
+
+What are the pipeline stages in Cortex-M vs Cortex-A cores?
+
+How does ARM handle pipeline flushing?
+
+Explain the role of the barrel shifter in ARM.
+
+What is the role of the program counter (PC) during pipelined execution?
+
+What is the difference between a load-use hazard and a control hazard?
+
+Explain how forwarding (bypassing) resolves data hazards.
+
+Explain the AMBA architecture. What are AHB, APB, and AXI buses?
+
+What is the difference between AHB-Lite and AXI?
+
+How are memory regions mapped in Cortex-M?
+
+What is little-endian vs big-endian? Which mode does ARM use?
+
+What is the purpose of TCM (Tightly Coupled Memory)?
+
+Explain write-back vs write-through caches.
+
+What is a cache line and why is it important?
+
+How does ARM handle cache coherency in multicore systems?
+
+What is the role of the memory barrier (DMB, DSB, ISB) in synchronization?
+
+What are “strongly ordered” and “device” memory regions in ARM memory model?
+
+Explain the difference between synchronous and asynchronous exceptions.
+
+What is a HardFault? List possible causes.
+
+What is the difference between preemption and tail-chaining in Cortex-M NVIC?
+
+How is interrupt nesting handled in Cortex-M4?
+
+What is the vector table relocation (VTOR)? When is it used?
+
+How does late arrival work in NVIC?
+
+Explain exception stacking and unstacking in Cortex-M.
+
+How do you prioritize interrupts manually using registers?
+
+What is the role of PendSV in RTOS context switching?
+
+What is a supervisor call (SVC), and how is it used in ARM OS kernels?
+
+What is the difference between ARMv7 and ARMv8 architectures?
+
+What are AArch32 and AArch64 states in ARMv8?
+
+What are the four Exception Levels (EL0–EL3) used for?
+
+What is TrustZone? How does it separate secure/non-secure execution?
+
+Explain how the Secure Monitor Call (SMC) works.
+
+What is the purpose of EL3 in ARM architecture?
+
+What is Stage 1 and Stage 2 translation in ARMv8 MMU?
+
+What is an IPA (Intermediate Physical Address)?
+
+How does ARM handle virtualization and hypervisors?
+
+What are ARMv8.2 enhancements over ARMv8.0 (like FP16, atomic ops)?
+
+What is the difference between a context switch and an interrupt service routine?
+
+How is stack usage managed for multiple RTOS tasks in ARM?
+
+What is priority inversion? How is it handled in ARM RTOS systems?
+
+What are the main sources of interrupt latency in ARM systems?
+
+What is SWD (Serial Wire Debug) and how does it differ from JTAG?
+
+What is ITM (Instrumentation Trace Macrocell)?
+
+What is ETM (Embedded Trace Macrocell), and when would you use it?
+
+How can you perform real-time performance analysis on Cortex-M?
+
+What are ARM performance counters and how do you access them?
+
+What is the process to debug a hard fault step-by-step using GDB or Keil?
+
+Level 3: Advanced Cortex & Multicore (101–150)
+
+Explain the difference between Cortex-M3 3-stage pipeline and Cortex-A 8-stage pipeline.
+
+What is a load/store architecture? Why is ARM designed as load/store?
+
+What is the function of the PSR (Program Status Register)?
+
+How does ARM handle conditional execution at instruction level?
+
+Explain the difference between single-cycle and multi-cycle instructions.
+
+What is the Thumb-2 instruction set and why is it used?
+
+Explain the use of IT blocks in Thumb-2.
+
+How does the ARM architecture implement multiply and multiply-accumulate operations?
+
+What is the difference between MOV and MVN instructions?
+
+Explain how ARM handles immediate values larger than 8 bits in instructions.
+
+What is an instruction hazard? Give examples.
+
+Explain branch delay slots. Does ARM use them?
+
+What is data forwarding and why is it needed?
+
+How do ARM CPUs handle mispredicted branches?
+
+Explain the difference between in-order and out-of-order execution.
+
+How does pipeline depth affect interrupt latency?
+
+What is superscalar execution in ARM Cortex-A cores?
+
+How do Cortex-M cores handle interrupt preemption with pipelining?
+
+What is speculative execution and what risks does it introduce?
+
+How does ARM mitigate pipeline stalls?
+
+What is the difference between strongly ordered, device, and normal memory types in ARM?
+
+How do you clean and invalidate cache lines in ARM?
+
+Explain write-back vs write-through caches.
+
+What are TCM (Tightly Coupled Memory) and SRAM differences?
+
+What is cache aliasing and how can it be avoided?
+
+How is virtual-to-physical memory translation implemented in ARMv8?
+
+Explain the difference between stage 1 and stage 2 MMU translation.
+
+How do you prevent data coherency issues in multicore ARM systems?
+
+What are memory barriers (DMB, DSB, ISB) used for?
+
+Explain ARM's Load/Store atomic instructions for synchronization.
+
+What is the difference between HardFault, MemManage, BusFault, and UsageFault?
+
+How does the Cortex-M exception entry and exit mechanism work?
+
+Explain the purpose of the BASEPRI register.
+
+How does the NVIC support nested interrupts?
+
+What is tail-chaining in NVIC?
+
+How are priority grouping and sub-priority configured in NVIC?
+
+Explain late-arriving interrupt behavior.
+
+What is the role of PendSV in context switching?
+
+How is vector table relocation implemented on Cortex-M?
+
+How can software trigger an interrupt (STIR)?
+
+How is a task stack organized in FreeRTOS on ARM Cortex-M?
+
+Explain context save and restore during RTOS task switching.
+
+What is priority inversion and how is it resolved in ARM RTOS systems?
+
+Explain how tickless idle mode works in low-power RTOS systems.
+
+What are semaphores and mutexes? How are they implemented on ARM?
+
+How do ARM memory barriers ensure synchronization across tasks?
+
+Explain the difference between IRQ and FIQ on Cortex-M.
+
+How is an RTOS scheduler implemented in assembly on Cortex-M?
+
+How is stack overflow detected in ARM RTOS?
+
+How do you measure ISR latency and task switch time on ARM systems?
+
+Level 4: ARM SoC, Linux, Security & Optimization (151–200)
+
+What is the difference between Cortex-M, Cortex-R, and Cortex-A cores in terms of use cases?
+
+Explain the difference between ARM microcontroller and application processor.
+
+What is an SoC (System on Chip), and how is ARM used in SoCs?
+
+How are peripherals integrated in ARM SoCs?
+
+What is an APB and AHB bridge, and why are they needed?
+
+Explain the concept of bus arbitration in multicore ARM systems.
+
+What is a multicore ARM cluster, and how do cores communicate?
+
+What is GIC (Generic Interrupt Controller) in Cortex-A systems?
+
+How does an ARM SoC handle power domains and clock gating?
+
+What is a system timer in ARM SoCs and how is it used in OS scheduling?
+
+How do you cross-compile a Linux kernel for ARM?
+
+What is the role of the device tree in ARM Linux?
+
+How is memory-mapped I/O handled in Linux on ARM?
+
+Explain user space vs kernel space in ARM Linux.
+
+How do you write a simple Linux device driver for ARM?
+
+How is interrupt handling implemented in ARM Linux kernel?
+
+How does ARM Linux handle context switching?
+
+What are memory barriers in Linux ARM device drivers?
+
+Explain kernel preemption and its effect on ARM tasks.
+
+How do you debug Linux device drivers on ARM?
+
+What is ARM TrustZone and what problem does it solve?
+
+Explain the difference between Secure World and Non-Secure World.
+
+What is the role of the Secure Monitor in ARM TrustZone?
+
+How does context switching work between Secure and Non-Secure worlds?
+
+Explain secure boot in ARM SoCs.
+
+How is cryptography handled in ARM processors with TrustZone?
+
+What are secure memory regions, and how are they enforced?
+
+What is TEE (Trusted Execution Environment) in ARM architecture?
+
+How are secure interrupts managed in TrustZone?
+
+How do you test or debug TrustZone applications?
+
+How do ARM multicore systems handle cache coherency?
+
+What is MESI protocol, and how does ARM implement it?
+
+Explain inter-processor communication (IPC) in ARM multicore systems.
+
+How do you prevent race conditions in multicore ARM systems?
+
+Explain memory-mapped semaphores for multicore synchronization.
+
+How does ARM GIC handle multicore interrupt routing?
+
+What are spinlocks, and how are they implemented in ARM?
+
+How does a barrier instruction help in multicore synchronization?
+
+Explain the difference between strong and weak memory ordering in ARM.
+
+How do ARM processors handle atomic operations in multicore systems?
+
+How do you optimize ARM Cortex-M code for speed vs size?
+
+How do you measure CPU cycles and instruction timing on ARM?
+
+How can you optimize power consumption in ARM MCUs?
+
+What is dynamic voltage and frequency scaling (DVFS)?
+
+How do you debug a race condition on an ARM Cortex-M?
+
+How do you profile code on ARM using PMU (Performance Monitoring Unit)?
+
+Explain how ETM (Embedded Trace Macrocell) can help in debugging.
+
+How do you handle stack overflow and memory corruption in ARM firmware?
+
+How can inline assembly improve performance on ARM?
+
+Explain a real-world scenario where you optimized an ARM system for both speed and power.
